@@ -48,6 +48,7 @@ Create a new file named requirements.txt in the directory
 > touch requirements.txt
 > nano requirements.txt
 Add the following code to the requirements.txt file:
+
 Flask==2.1.2
 pymysql==1.0.2
 
@@ -103,7 +104,7 @@ Create a new file named employees.html in the templates folder
 > nano employees.html
 Add the following code to the employees.html file:
 
-
+START HERE
 <table>
   <tr>
     <th>First Name</th>
@@ -120,8 +121,11 @@ Add the following code to the employees.html file:
     {% endfor %}
   {% endif %}
 </table>
+END HERE
+
+
 Start the Docker Compose project:
 
-Run the following command in the correct directory:
+Run the following command in the correct directory
 
 > docker-compose up
